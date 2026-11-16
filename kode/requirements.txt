@@ -1,0 +1,13 @@
+# Versi yang dipakai untuk semua angka di laporan (Python 3.12.10, Windows 11, RTX 3050 Laptop 4 GB).
+# torch/torchvision (CUDA 12.6) dipasang terpisah:
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cu126
+# Di Colab torch sudah terpasang; file ini memasang sisanya.
+numpy==2.5.4
+pandas==3.1.1
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+umap-learn==0.6.0
+lightgbm==4.7.0
+# hanya untuk mengunduh data di Colab (tidak dipakai saat training)
+gdown

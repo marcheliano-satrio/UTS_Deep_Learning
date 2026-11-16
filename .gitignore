@@ -1,0 +1,29 @@
+# data (jangan pernah di-commit)
+data/
+data_kecil/
+*.zip
+
+# hasil run: metrics.json, config.json, history.json, *.csv, *.png DI-COMMIT (sumber semua angka
+# laporan); file berat (weights, array prediksi/embedding) tidak. Weights final -> weights/.
+runs/**/*.npy
+runs/**/*.pkl
+*.pt
+*.pth
+*.ckpt
+!weights/**/*.pt
+
+# python / notebook
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# dataset dari dosen
+data_uts_dl/
+logs/
